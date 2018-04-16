@@ -1,0 +1,31 @@
+.tic-tac-toe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  width: auto;
+}
+.square {
+  border: 3px solid tomato;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  line-height: 20px;
+  color: #999;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
+}
+#message {
+  text-align: center;
+  font-family: tahoma;
+  font-weight: bold;
+  color: navy;
+  display: none;
+}
+#restart {
+  text-align: center;
+}
